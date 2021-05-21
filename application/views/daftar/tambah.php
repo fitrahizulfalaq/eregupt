@@ -6,7 +6,8 @@
       <h5><?= $menu ?></h5>
     </div>
     <div class="col-12">
-      <iframe src="http://localhost/newlogbook/publik/daftarluring" style="height:500px;width:100%;" title="Iframe Example" class="border-0"></iframe>
+      <iframe src="https://logbook.uptkukm.id/daftarluring" style="height:500px;width:100%;" title="Iframe Example" class="border-0"></iframe>
+    </div>
     </div>
   </section><!-- End Breadcrumbs -->
 </main><!-- End #main -->
