@@ -5,12 +5,18 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1>Layanan Registrasi Online Pelatihan</h1>
-            <h2> UPT Pelatihan Koperasi dan UKM Provinsi Jawa Timur</h2>
+            <h1>Aplikasi Registrasi Online UPT Pelatihan Koperasi dan UKM Provinsi Jawa Timur</h1>
+            <h2>Platform pendaftaran dalam satu portal</h2>
+            <a class="btn btn-primary" href="<?= base_url("daftar")?>">Daftar</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-          <img src="<?= base_url()?>/assets/img/hero-img.png" style="width: 300px;" class="img-fluid" alt="Logo Aplikasi">
+          <img src="<?= base_url()?>/assets/img/hero-img.png" style="width: 500px;" class="img-fluid" alt="Logo Aplikasi">
         </div>
       </div>
     </div>
@@ -112,7 +118,7 @@
     <!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="buat" class="cta">
+<!--     <section id="buat" class="cta">
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
@@ -127,6 +133,6 @@
 
       </div>
     </section>
-    <!-- End Cta Section -->
+ -->    <!-- End Cta Section -->
 
   </main><!-- End #main
