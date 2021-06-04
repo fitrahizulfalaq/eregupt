@@ -9,6 +9,12 @@ class Daftar extends CI_Controller {
 
 	public function index()
 	{
+		$data['menu'] = "Form Pendaftaran";
+		$this->templateadmin->load('templateadmin','daftar/tambah',$data);
+	}
+	
+	public function backupIndex()
+	{
 		//Load librarynya dulu
 		$this->load->library('form_validation');
 		//Atur validasinya
