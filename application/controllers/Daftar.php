@@ -11,7 +11,7 @@ class Daftar extends CI_Controller {
 	{
 		$data['menu'] = "Form Pendaftaran";
 		$this->templateadmin->load('templateadmin','daftar/tambah',$data);
-		redirect('daftar/culinarybc/')
+		redirect('daftar/culinarybc/');
 	}
 
 	public function culinarybc()
