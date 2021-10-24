@@ -51,8 +51,9 @@
         <ul>
           <li class="active"><a href="<?= base_url()?>">Home</a></li>
           <!-- <li><a href="https://uptkukm.id">Gate</a></li> -->
-          <!-- <li><a href="<?= base_url('daftar')?>">Daftar</a></li> -->
-          <li><a href="<?= base_url('daftar/culinarybc/')?>">Culinary Booth Camp</a></li>
+          <li><a href="<?= base_url('daftar')?>">Pelatihan Offline</a></li>
+          <!-- <li><a href="<?= base_url('daftar/culinarybc/')?>">Culinary Booth Camp</a></li> -->
+          <li><a href="<?= base_url('daftar/perizinan')?>">Perizinan</a></li>
           <li><a href="http://wa.me/+6281331220006"><i class="icofont-whatsapp"></i> Hubungi Admin</a></li>
 
         </ul>
