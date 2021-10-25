@@ -12,6 +12,12 @@ class Table extends CI_Controller {
 		$data['menu'] = "Jadwal Perizinan";
 		$this->templateadmin->load('templateadmin','table/perizinan/jadwal',$data);
 	}
+
+	public function cekjadwal()
+	{
+		$data['menu'] = "Jadwal Perizinan";
+		$this->templateadmin->load('templateadmin','table/perizinan/cek',$data);
+	}
 		
 }
 
