@@ -7,7 +7,7 @@
           <div>
             <h1>Aplikasi Registrasi Online UPT Pelatihan Koperasi dan UKM Provinsi Jawa Timur</h1>
             <h2>Platform pendaftaran dalam satu portal</h2>
-            <a class="btn btn-primary" href="<?= base_url("daftar")?>">Daftar</a>
+            <a class="btn btn-primary" href="<?= base_url("daftar/perizinan/")?>">Daftar Perizinan</a>
             <br>
             <br>
             <br>
