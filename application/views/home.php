@@ -9,6 +9,8 @@
             <h2>Platform pendaftaran dalam satu portal</h2>
             <a class="btn btn-success" href="<?= base_url("daftar/perizinan/")?>">Daftar Perizinan</a>
             <a class="btn btn-secondary" href="https://izin.uptkukm.id">Kembali ke Portal</a>
+            <h5>Jadwal hari ini : <?= $this->fungsi->pilihan_advanced("tb_perizinan","tgl =",date("Y-m-d"))->num_rows()?></h5>
+            <h5>Jadwal akan datang : <?= $this->fungsi->pilihan_advanced("tb_perizinan","tgl >",date("Y-m-d"))->num_rows()?></h5>
             <br>
             <br>
             <br>
