@@ -28,7 +28,7 @@ class Daftar extends CI_Controller {
 
 	public function podcast()
 	{
-		$data['menu'] = "Form Pendaftaran Podcast";
+		$data['menu'] = "Form Pendaftaran Acara Bincang jawara UKM";
 		$this->templateadmin->load('templateadmin','daftar/podcast',$data);
 	}
 		
